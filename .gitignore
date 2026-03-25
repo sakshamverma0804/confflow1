@@ -1,0 +1,26 @@
+# Environment Variables — NEVER commit these
+.env.local
+.env.production
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Build Output
+dist/
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
